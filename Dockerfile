@@ -1,6 +1,6 @@
 FROM php:8.3.11RC2-fpm-alpine
 
-RUN apk --update --no-cache add openssl curl ca-certificates
+RUN apk --update --no-cache add openssl curl ca-certificates git
 
 RUN printf "%s%s%s\n" \
     "http://nginx.org/packages/alpine/v" \
