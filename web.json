@@ -34,7 +34,7 @@
             "env_variable": "STARTUP_CMD",
             "default_value": ".\/start.sh",
             "user_viewable": true,
-            "user_editable": true,
+            "user_editable": false,
             "rules": "present",
             "field_type": "text"
         },
