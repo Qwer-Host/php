@@ -6,4 +6,4 @@ echo "⟳ Starting PHP-FPM..."
 
 echo "⟳ Starting Nginx..."
 echo "✓ Successfully started"
-/usr/sbin/nginx -c /home/container/nginx/nginx.conf -e stderr -p /home/container/ -g "daemon on;"
+/usr/sbin/nginx -c /home/container/nginx/nginx.conf -e stderr -p /home/container/ -g "daemon off;"
