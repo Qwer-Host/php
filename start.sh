@@ -13,7 +13,7 @@ while true; do
   if [ "${line}" = "stop" ]; then
     /usr/sbin/nginx -s stop -c /home/container/nginx/nginx.conf -e stderr -p /home/container/
     pkill php-fpm
-    rm -rf /home/container/tmp/*
+    rm -rf /tmp/*
     exit 0
   fi
 done
